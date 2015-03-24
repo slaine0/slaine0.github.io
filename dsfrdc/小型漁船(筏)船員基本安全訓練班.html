@@ -1,0 +1,110 @@
+
+<!-- saved from url=(0126)http://dsfrdc.fa.gov.tw/4service/joinonline_before.aspx?signform=1&classno=D0008&period=1104&train_place=A004&tcode=3FCC9D4EE6 -->
+<html><head>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="zh-tw">
+
+<title>小型漁船(筏)船員基本安全訓練班</title>
+</head>
+
+<body background="./小型漁船(筏)船員基本安全訓練班_files/background_D.png">
+
+<p align="center"><font size="4" color="#CC6600"><b>小型漁船(筏)船員基本安全訓練班</b></font></p>
+<p align="center">2天（16小時）</p>
+<div align="center">
+	<table border="1" width="90%" id="table1" bordercolor="#663300" summary="排版表格">
+		<tbody><tr>
+			<td align="center" width="50%" height="40" bgcolor="#CC9900"><b>受訓條件及限制事項</b></td>
+			<td align="center" width="50%" height="40" bgcolor="#CC9900"><b>報到應繳(驗)證明文件</b></td>
+		</tr>
+		<tr>
+			<td style="padding:10px;">
+			<ol>
+				<li>報名本訓練須於網路報名完成第3日（含當日，但不含國定例假日）下午17時前，按「基本安全訓練報名暨保證金繳交確認表」說明，至金融機構繳交訓練保證金（4,000元）後，傳真（07-8153847）該確認表至本署遠洋漁業開發中心並以電話確認（07-8239724）。未依前開程序完成訓練保證金繳交及確認程序者，視同放棄報名。</li><li>學員倘因身體不適或個人因素無法參與任一實作課程者，不得報名參加訓練，參加訓練期間不得請假或曠課。</li><li>報到時及受訓期間必須服裝整齊，禁止穿著拖鞋、涼鞋、高跟鞋等。</li><li>開訓當日上午08:00開始辦理報到，已報名人員應於08:30前完成報到，逾時不得以任何理由要求參訓。報到時間另有規定公告者，以公告為準。</li><li>求生實習課因需穿著衣褲下水操作，請自備一套乾的衣褲更換。</li><li>因故未能參訓且未於開訓日1週前通知本署取消報名者，將依違反次數暫停其3個月、6個月、1年之報名參訓資格。</li><li>所有課程遇有報名人數不足時，本署得取消該課程或併班上課。如有特殊情況，本署得更改課程之原定上課時間、課程內容及教師。</li><li>訓練地點縣（市）政府遇天然災害公告停止辦公時，各訓練班期比照辦理（停課），倘遇開訓當日停課者，該訓練班期暫停辦理，並由本署另訂開訓及受訓日期後通知已報名學員。
+			</li></ol>
+			</td>
+			<td style="padding:10px;" valign="top">（一）身分證正本及影本各1份（正本查驗後退還）。<p>（二）貼妥保證金匯款收執聯正本之報名暨保證金繳交確認表正本。</p></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center" style="padding:10px; background:url(&#39;/sys/img_train/LOGO.gif&#39;); background-position: 2% 50% ;background-repeat:no-repeat;">
+				<form id="myForm" style="margin:1px;" method="post" action="線上報名.html">
+<p><b><font color="#FF0000">【聲明】：本人已充分閱讀、理解並符合受訓條件及限制事項，聲明同意遵守上開全部內容。</font></b></p>
+<div><b><font color="#FF0000" size="5" id="divSec">55</font></b></div>
+<p><input type="checkbox" value="V2" id="R1" name="R1" disabled="">同意　　　<input type="checkbox" value="V3" id="R2" name="R2" disabled="">不同意</p>
+<p><input type="submit" value="開始填寫報名資料" id="B1" name="B1" disabled="">　　　<input id="B2" type="submit" value="回線上報名" name="B2"></p>
+
+
+<noscript>
+&lt;P&gt;請先閱讀完報名注意事項, 謝謝 (1分鐘後才能確認送出)&lt;/P&gt;
+</noscript>
+<script>
+	var countdownnumber = 60;
+	var countdownid;
+
+	var myForm = document.getElementById("myForm");
+	var R1 = document.getElementById("R1");
+	var R2 = document.getElementById("R2");
+	var B1 = document.getElementById("B1");
+	var B2 = document.getElementById("B2");
+	var divSec = document.getElementById("divSec");
+
+	function sfcscheck() {
+		if(!document.getElementById('R1').checked) {
+			alert('請先閱讀完報名注意事項, 謝謝');
+			return false;
+		} else {
+			return true;
+		}
+	}
+	
+	function cancelCheck(id) { document.getElementById(id).checked = false; }
+
+
+	if(myForm) myForm.onsubmit = function() { return sfcscheck(); };
+	if(R1) R1.onclick = function() { cancelCheck('R2'); }
+	if(R2) R2.onclick = function() { cancelCheck('R1'); }
+	if(B2) B2.onclick = function() { window.location='../type2/index.aspx'; return false; }
+
+	function countdownfunc()
+	{
+		//B1.value = "開始填寫報名資料(" + countdownnumber + ")";
+		if (countdownnumber >= 0) divSec.innerHTML = countdownnumber;
+
+		if (countdownnumber < 0)
+		{
+			divSec.innerHTML = "";
+			//B1.value = "開始填寫報名資料";
+			B1.disabled = false;
+			R1.disabled = false;
+			R2.disabled = false;
+			//clearTimeout(countdownid);
+		}
+		else
+		{
+			countdownnumber--;
+
+			//if(countdownid)
+			//{
+			//	clearTimeout(countdownid);
+			//}
+
+			//countdownid = setTimeout(countdownfunc, 1000);
+
+			setTimeout(countdownfunc, 1000);
+		}
+	}
+
+	setTimeout(countdownfunc, 1000);
+	//countdownfunc();
+</script>
+</form>
+
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+
+
+
+</body></html>

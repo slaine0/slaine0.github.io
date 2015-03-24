@@ -1,0 +1,35 @@
+#virtualKeyDiv {
+	padding: 10px;
+	background-color: #00cc66;
+}
+
+#virtualKeyTable {
+	border-width: 3px 3px 3px 3px;
+	border-spacing: 0px;
+	border-style: outset outset outset outset;
+	border-color: gray gray gray gray;
+	border-collapse: separate;
+	background-color: rgb(255, 255, 240);
+/*
+	background-color: #00cc66;
+	border-collapse: collapse;
+*/	
+}
+
+#virtualKeyTable TD {
+	border-width: 2px 2px 2px 2px;
+	padding: 2px 2px 2px 2px;
+	border-style: none none none none;
+	border-color: gray gray gray gray;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+
+#virtualKeyTable button {
+	padding:0;
+	border:0;
+	cursor:pointer;
+	background:none;
+	width:22px;
+	height:21px;
+}

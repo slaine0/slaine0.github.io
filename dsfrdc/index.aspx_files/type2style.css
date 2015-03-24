@@ -1,0 +1,29 @@
+body {
+	background-image:url(sys/img_train/bg.jpg);
+}
+
+
+
+TD { FONT-SIZE: 10pt; HEIGHT: 18pt; TEXT-ALIGN: center; }
+
+.left_td TD { FONT-SIZE: 10pt; HEIGHT: 18pt; TEXT-ALIGN: left; }
+
+.menu_td {
+	border: 2px solid #0066FF;
+}
+
+.fish_contel, .fish_contel TD {
+	 FONT-SIZE: 10pt; 
+	 padding:5px;
+	 BORDER-BOTTOM: #cccccc 1px dashed
+}
+
+.titleList {
+	VERTICAL-ALIGN: bottom;
+	COLOR: #3a92c4;
+	TEXT-ALIGN: left;
+}
+
+.titleList font, .titleList hr {
+	COLOR: #0066ff;
+}

@@ -1,0 +1,43 @@
+.Title_blue_15w {
+	font-size: 15px;
+	line-height: 130%;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	background-image: url(../table/newtitle.gif);
+	text-align: justify;
+}
+.outside_blue {  border: 1px outset #009900; padding-top: 1px; padding-right: 1px; padding-bottom: 1px; padding-left: 1px}
+.Context_con_1 {  clip:   rect(   ); border-color: #0066CC black black; border-style: groove; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; list-style-type: lower-roman; height: 1px; width: 1px; left: 1px; top: 1px}
+.tableblue12 {
+	font-size: 12px;
+	line-height: 150%;
+	color: #003399;
+	background-color: #E6FAFF;
+	font-weight: normal;
+	text-align: right;
+	vertical-align: 100%;
+}
+.tablewhite12 {
+	font-size: 12px;
+	line-height: 150%;
+	color: #333333;
+	text-decoration: none;
+}
+
+.datagridHeader12 {
+	font-size: 12px;
+	line-height: 150%;
+	color: #009900;
+	text-align: center;
+	text-decoration: none;
+	background-color: #E6FAFF;
+}
+.datagridFooter {
+	font-size: 12px;
+	line-height: 150%;
+	color: #333333;
+	text-decoration: none;
+	background-color: #E6FAFF;
+}
